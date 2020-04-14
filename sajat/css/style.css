@@ -220,5 +220,131 @@ h5 {
 
 .box li {
     font-weight: 400;
-    margin: 5px auto;
+    margin: 15px auto;
+}
+
+/*********************************************
+        ÜZENET
+*********************************************/
+
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type=submit] {
+    display: inline-block;
+    padding: 10px 30px;
+    font-weight: 300;
+    text-decoration: none;
+    border-radius: 200px;
+    background-color: #ef5f12;
+    border: 1px solid #ef5f12;
+    color: #fff;
+    margin-right: 15px;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
+}
+
+input[type=submit]:hover,
+input[type=submit]:active {
+    background-color: #d8520b;
+    cursor: pointer;
+}
+
+*:focus {outline: none;}
+
+/*********************************************
+        FOOTER
+*********************************************/
+
+footer {
+    background-color: #333;
+    padding: 50px;
+    font-size: 80%;
+}
+
+.footer-nav {
+    list-style: none;
+    float: left;
+}
+
+.kozossegi-linkek {
+    list-style: none;
+    float: right;
+}
+
+.footer-nav li,
+.kozossegi-linkek li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.footer-nav li:last-child,
+.kozossegi-linkek li:last-child {
+    margin-right: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.kozossegi-linkek li a:link,
+.kozossegi-linkek li a:visited {
+    text-decoration: none;
+    border: 0;
+    color: #888;
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.footer-nav li a:hover,
+.footer-nav li a:active {
+    color: #ddd;
+}
+
+.kozossegi-linkek li a:link,
+.kozossegi-linkek li a:visited {
+    font-size: 160%;
+}
+
+.facebook-logo,
+.twitter-logo,
+.google-logo,
+.insta-logo {
+    -webkit-transition: color 0.2s;
+    transition: color 0.2s;
+}
+
+.facebook-logo:hover {
+    color: #3b5998;
+}
+
+.twitter-logo:hover {
+    color: #00aced;
+}
+
+.google-logo:hover {
+    color: #dd4b39;
+}
+
+.insta-logo:hover {
+    color: #517fa4;
+}
+
+footer p {
+    margin-top: 20px;
+    color: #888;
+    text-align: center;
 }

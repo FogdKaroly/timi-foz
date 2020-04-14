@@ -141,7 +141,7 @@
                 </div>
         </section>
 
-        <section class="uzenet">
+        <section class="uzenet-form">
             <div class="row">
                 <h2>Ha bármiben segíthetek, írjon egy üzenetet!</h2>
             </div>
@@ -155,8 +155,75 @@
                             <input type="text" name="nev" id="nev" placeholder="Az Ön neve" required>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="email">Email</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="email" name="email" id="email" placeholder="valaki@valahol.hu" required>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="talalt">Hogyan talált rám</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <select name="talalt" id="talalt">
+                                <option value="barat" selected>Barát / ismerős</option>
+                                <option value="kereso" >Kereső</option>
+                                <option value="internet" >Másik weboldal</option>
+                                <option value="egyeb" >Egyéb</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label for="uzenet">Írjon üzenetet</label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <textarea name="uzenet" placeholder="Üzenet szövege"></textarea>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col span-1-of-3">
+                            <label> &nbsp; </label>
+                        </div>
+                        <div class="col span-2-of-3">
+                            <input type="submit" value="Küldés">
+                        </div>
+                    </div>
                 </form>
             </div>
         </section>
+
+        <footer>
+            <div class="row">
+                <div class="col span-1-of-2">
+                    <ul class="footer-nav">
+                        <li><a href="#">About us</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">Press</a></li>
+                        <li><a href="#">iOS App</a></li>
+                        <li><a href="#">Android App</a></li>
+                    </ul>
+                </div>
+                <div class="col span-1-of-2">
+                    <ul class="kozossegi-linkek">
+                        <li><a href="#"><ion-icon name="logo-facebook" class="facebook-logo"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-twitter" class="twitter-logo"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-google" class="google-logo"></ion-icon></a></li>
+                        <li><a href="#"><ion-icon name="logo-instagram" class="insta-logo"></ion-icon></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row">
+                <p>
+                    Copyright &copy; 2020 by Fogd Károly. Minden jog fenntartva.
+                </p>
+            </div>
+        </footer>
+
+        <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+
     </body>
 </html>
