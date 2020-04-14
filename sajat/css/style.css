@@ -1,0 +1,224 @@
+/*
+Main color: #ef5f12
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+p {
+    width: 900px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+/*********************************************
+        HEADER
+*********************************************/
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/header-hatter.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.header img{
+    width: 80px;
+}
+
+.header__main-nav {
+    display: flex;
+    text-transform: uppercase;
+    flex: 0 0 100%;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header__menu-item {
+    margin-right: 30px;
+}
+
+.header__menu-item a:link,
+.header__menu-item a:visited {
+    padding: 5px 0;
+    text-decoration: none;
+    color: #fff;
+    font-size: 90%;
+    letter-spacing: 1px;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.header__menu-item a:hover,
+.header__menu-item a:active {
+    border-bottom: 2px solid #ef5f12;
+    transition: border-bottom 0.5s;
+}
+
+.focim {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/*********************************************
+        HEADINGS
+*********************************************/
+
+h1,
+h2 {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h1 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+    font-size: 240%;
+    word-spacing: 4px;
+    letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 180%;
+    margin-bottom: 30px;
+    text-align: center;
+    word-spacing: 2 px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #ef5f12;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+h3,
+h4,
+h5 {
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 10px auto;
+}
+
+h3 {
+    font-size: 120%;
+    border-bottom: 1px solid #ef5f12;
+    margin-bottom: 30px;
+    height: 70px;
+}
+
+h4 {
+    font-size: 90%;
+}
+
+h5 {
+    font-size: 80%;
+}
+
+/*********************************************
+        ROLAM SECTION
+*********************************************/
+
+.section-rolam img {
+    float: left;
+    width: 200px;
+    height: 400px;
+    margin-right: 10px;
+    clear: both;
+}
+
+/*********************************************
+        8KÉP SECTION
+*********************************************/
+
+.kaja-foto {
+    overflow: hidden;
+    background-color: #000;
+}
+
+.elso-sor,
+.masodik-sor {
+    display: flex;
+}
+
+.section-kepek img {
+    width: 100%;
+    opacity: 0.7;
+    height: 100%;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+}
+
+.section-kepek img:hover {
+    opacity: 1;
+    transform: scale(1.05);
+}
+
+/*********************************************
+        RECEPTEK
+*********************************************/
+
+.section-receptek {
+    background-color: #f4f4f4;
+}
+
+/***** RECEPT BLOKKOK *****/
+
+.box img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+    border-radius: 4px;
+}
+
+.kiemelt-recept {
+    margin-bottom: 20px;
+}
+
+.box ul {
+    list-style: none;
+    font-size: 75%;
+}
+
+.box li {
+    font-weight: 400;
+    margin: 5px auto;
+}
