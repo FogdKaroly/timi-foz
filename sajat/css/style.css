@@ -114,13 +114,17 @@ header {
     z-index: 9999;
 }
 
+.sticky .header {
+    padding-top: 0px;
+}
+
 .sticky .header__main-nav {
-    margin-top: 18px;
+    margin-top: 10px;
 }
 
 .sticky .header__main-nav a:link,
 .sticky .header__main-nav a:visited {
-    padding: 16px 0;
+    padding: 10px 0;
     color: #555;
 }
 
