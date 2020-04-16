@@ -119,12 +119,12 @@ header {
 }
 
 .sticky .header__main-nav {
-    margin-top: 10px;
+    margin-top: 5px;
 }
 
 .sticky .header__main-nav a:link,
 .sticky .header__main-nav a:visited {
-    padding: 10px 0;
+    padding: 15px 0;
     color: #555;
 }
 
