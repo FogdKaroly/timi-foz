@@ -387,3 +387,20 @@ footer p {
     color: #888;
     text-align: center;
 }
+
+/*********************************************
+        RECEPTEK OLDAL
+*********************************************/
+
+.receptek__cont {
+    display: flex;
+    max-width: 800px;
+    margin: 0 auto;
+    
+}
+
+.receptek__kiskep img{
+    width: 300px;
+    height: auto;
+    flex: 0 1 50%;
+}
