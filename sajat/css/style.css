@@ -33,6 +33,33 @@ section {
     padding: 80px 0;
 }
 
+/*
+Buttons
+*/
+
+.btn-recept-reszlet a:link,
+.btn-recept-reszlet a:visited {
+    text-decoration: none;
+    font-size: 90%;
+    color: #fff;
+    padding-top: 8px;
+    display: block;
+    margin-top: 30px;
+    width: 100px;
+    height: 35px;
+    display: block;
+    background-color: #ef5f12;
+    text-align: center;
+    border-radius: 200px;
+    transition: background-color 0.2s, color 0.2s;
+}
+
+.btn-recept-reszlet a:hover,
+.btn-recept-reszlet a:active {
+    background-color: #d8520b;
+    cursor: pointer;
+}
+
 /*********************************************
         HEADER
 *********************************************/
