@@ -423,11 +423,56 @@ footer p {
     display: flex;
     max-width: 800px;
     margin: 0 auto;
-    
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 5px 10px #88888815;
+    margin-bottom: 20px;
 }
 
-.receptek__kiskep img{
-    width: 300px;
-    height: auto;
-    flex: 0 1 50%;
+.receptek__kiskep {
+    flex: 0 1 45%;
+    height: 220px;
+    display: block;
+    overflow: hidden;
+}
+
+.receptek__kiskep img {
+    width: 100%;
+}
+
+.receptek__leiras {
+    padding-left: 20px;
+    flex: 1;
+}
+
+.receptek__reszletek-gomb {
+    background: linear-gradient(to bottom, #ef5f12, #943b0c);
+    flex: 0 0 50px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.receptek__reszletek-gomb a:link,
+.receptek__reszletek-gomb a:visited {
+    text-decoration: none;
+    font-size: 70%;
+    font-weight: 400;
+    color: #fff;
+    width: 50px;
+    transition: background-color 0.2s, color 0.2s;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    padding-top: 22px;
+    padding-left: 15px;
+}
+
+.receptek__reszletek-gomb a:hover,
+.receptek__reszletek-gomb a:active {
+    background-color: #d8520b;
+    cursor: pointer;
+}
+
+.receptek__hozzavalok {
+    font-size: 60%;
 }
